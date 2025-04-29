@@ -10,8 +10,9 @@ Toolフォルダに各種ツールが格納されています。
 
 ### Editor/MakePackage.bat
 Developtmentの構成でパッケージ作成します。  
-TestNoCompileEditor\Saved\StagedBuilds\Windows にパッケージは配置されます。  
-デフォルトパスの C:\Program Files\Epic Games\UE_5.5 にUnrealEngine5.5が格納されている場合に動作します。
+
+### Editor/MakePackage_NoCompileEditor.bat
+Developtmentの構成で -nocompileeditor を付けてパッケージ作成します。  
 
 ### Editor/Launch_Stage_Standalone.bat
 パッケージをStandaloneで起動します。
